@@ -197,3 +197,5 @@ cython_debug/
 *.creator.user*
 *.cxxflags
 *.cflags
+
+.idea
