@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "monte-carlo"
+version = "0.1.0"
+description = ""
+authors = ["Юрков Владислав <yurk0v-vl@yandex.ru"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+build = "builder"
+
+[tool.poetry.dependencies]
+python = "3.11"
+pyqt6 = "6.4.2"
+matplotlib = "^3.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.1.0"
+black = "^23.9.1"
+flake8 = "^6.1.0"
+flake8-quotes = "^3.3.2"
+flake8-import-order = "^0.18.2"
+pep8-naming = "^0.13.3"
+pyqt6-tools = "^6.4.2.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
